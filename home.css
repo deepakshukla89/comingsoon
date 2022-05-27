@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+  
+    text-align: center;
+
+}
+.logo {
+    width: 90px;
+    margin: 20px;
+    margin-top: 15vh;
+
+}
+.decs{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.coming_soon_heaing{
+    font-weight: 800;
+    font-size: 70px;
+    margin: 20px 40px;
+    margin-top: 70px;
+    color: #FFF083;
+    
+}
+@media only screen and (max-width: 550px) {
+    .coming_soon_heaing {
+        font-size: 50px;
+        margin: 10px 15px;
+        margin-top: 40px;
+    }
+  
+  }
+#coming_soon{
+    background: url(./bg.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.animate__pulse{
+    animation: infinite;
+    animation-duration: 5s !important  ;
+}
+.social {
+   position: relative;
+   top: 20vh;
+}
+.social p {
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    line-height: 20px;
+}
+
+/* social media  */
+.fa {
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .social_media_icons li {
+    display: inline-block;
+  }
